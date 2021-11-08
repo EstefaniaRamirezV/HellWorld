@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HellWorld</string>
+    <string name="batman">Batman</string>
+    <string name="name">Bruce Wayne</string>
 </resources>
