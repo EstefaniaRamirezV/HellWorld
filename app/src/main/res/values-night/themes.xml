@@ -22,4 +22,10 @@
     <style name="textoSubtitulo" parent="textoNormal">
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="textoTitulo">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
 </resources>

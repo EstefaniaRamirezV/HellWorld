@@ -9,4 +9,23 @@
         One of the most iconic fictional characters in the world, Batman has dedicated his life to an endless crusade, a war on all criminals in the name of his murdered parents, who were taken from him when he was just a child. Since that tragic night, he has trained his body and mind to near physical perfection to be a self-made Super Hero. He\'s developed an arsenal of technology that would put most armies to shame. And he\'s assembled teams of his fellow DC Super Heroes, like the Justice League, the Outsiders and Batman, Incorporated.\n\n
         A playboy billionaire by day, Bruce Wayne’s double life affords him the comfort of a life without financial worry, a loyal butler-turned-guardian and the perfect base of operations in the ancient network of caves beneath his family’s sprawling estate. By night, however, he sheds all pretense, dons his iconic scalloped cape and pointed cowl and takes to the shadowy streets, skies and rooftops of Gotham City.</string>
     <string name="description">Descripción:</string>
+    <string name="registro">Registro de un superheroe</string>
+    <string name="registrar">Registrar</string>
+    <string name="height">Estatura</string>
+    <string name="name_info">"Nombre: %s, \nEstatura: %f", \nGénero: %s, \nPoderes: %s, \nCiudad: %s</string>
+    <string name="gender">Género</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="technology">Tecnología</string>
+    <string name="speed">Velocidad</string>
+    <string name="money">Dinero</string>
+    <string name="city">Ciudad de nacimiento</string>
+
+    <string-array name = "city_list">
+        <item>Gotham</item>
+        <item>Central City</item>
+        <item>Metrópolis</item>
+        <item>Temiscira</item>
+    </string-array>
+
 </resources>
