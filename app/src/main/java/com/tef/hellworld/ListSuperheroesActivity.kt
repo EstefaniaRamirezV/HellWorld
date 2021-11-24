@@ -27,16 +27,14 @@ class ListSuperheroesActivity : AppCompatActivity() {
                 this,
                 DividerItemDecoration.VERTICAL
             )
-        )*/
+        )
+       superheroesRecyclerView.adapter = superheroesAdapter */
 
         superheroesRecyclerView.apply{
             layoutManager = LinearLayoutManager(context)
             adapter = superheroesAdapter
             setHasFixedSize(false)
         }
-
-        /* superheroesRecyclerView.adapter = superheroesAdapter */
-
     }
 
     private fun createMockSuperheroes(): ArrayList<Superhero> {
