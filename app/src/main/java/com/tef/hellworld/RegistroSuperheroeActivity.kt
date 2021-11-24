@@ -69,7 +69,7 @@ class RegistroSuperheroeActivity : AppCompatActivity() {
                 infoTextView.text =
                     getString(R.string.name_info, name, height, gender, powers, city)
 
-                val superhero = Superhero(name, height, powers, city, gender)
+                // val superhero = Superhero(name, height, powers, city, gender)
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra("nombre", name)
                 startActivity(intent)

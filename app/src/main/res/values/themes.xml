@@ -16,14 +16,17 @@
 
     <style name= "textoNormal">
         <item name="android:textSize">20sp</item>
+        <item name="android:color">@color/black</item>
     </style>
 
     <style name="textoSubtitulo" parent="textoNormal">
         <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/black</item>
     </style>
 
     <style name="textoTitulo">
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">36sp</item>
+        <item name="android:color">@color/black</item>
     </style>
 </resources>

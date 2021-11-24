@@ -21,7 +21,7 @@
     <string name="money">Dinero</string>
     <string name="city">Ciudad de nacimiento</string>
 
-    <string-array name = "city_list">
+    <string-array name="city_list">
         <item>Gotham</item>
         <item>Central City</item>
         <item>Metrópolis</item>
