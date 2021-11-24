@@ -10,6 +10,9 @@ import com.google.android.material.textfield.TextInputEditText
 class RegistroSuperheroeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("Método", "onCreate")
+
+
         setContentView(R.layout.activity_registro_superheroe)
 
         // var o val para crear objetos, val es estático, var es mutable
@@ -66,11 +69,47 @@ class RegistroSuperheroeActivity : AppCompatActivity() {
                 infoTextView.text =
                     getString(R.string.name_info, name, height, gender, powers, city)
 
+                val superhero = Superhero(name, height, powers, city, gender)
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra("nombre", name)
                 startActivity(intent)
 
             }
         }
+    }
+
+    override fun onStart(){
+        super.onStart()
+        Log.d("Método", "onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("Método", "onResume")
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("Método", "onPause")
+
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("Método", "onStop")
+
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("Método", "onDestroy")
+
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("Método", "onRestart")
+
     }
 }
