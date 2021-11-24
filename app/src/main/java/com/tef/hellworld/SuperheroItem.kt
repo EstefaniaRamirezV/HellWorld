@@ -10,6 +10,8 @@ data class SuperheroItem(
     val city: String,
     @SerializedName("facebook")
     val facebook: String,
+    @SerializedName("height")
+    val height: Double,
     @SerializedName("name")
     val name: String,
     @SerializedName("occupation")

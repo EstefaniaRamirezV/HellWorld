@@ -31,7 +31,7 @@ class SuperheroesAdapter(private val superheroesList: ArrayList<SuperheroItem>) 
         fun bind(superhero: SuperheroItem){
             Log.d("nombre", superhero.name)
             nameTextView.text = superhero.name
-            aliasTextView.text = superhero.alias
+            aliasTextView.text = superhero.height.toString()
             Picasso.get().load(superhero.urlPicture).into(pictureImageView)
         }
     }
